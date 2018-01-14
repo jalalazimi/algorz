@@ -1,1 +1,1 @@
-# algorz
+# Algorz
