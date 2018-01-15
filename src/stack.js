@@ -23,6 +23,4 @@ export default class Stack {
   clear() {
     this.top = 0;
   }
-
-  
 }
