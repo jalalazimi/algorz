@@ -22,7 +22,7 @@ API section._
 
 ```javascript
 
-import dictionry from algorz;
+import {Dictionry} from algorz;
 
 lib = new Dictionary();
 lib.add('Raymond', '123');
