@@ -24,5 +24,9 @@ API section._
 
 import dictionry from algorz;
 
+lib = new Dictionary();
+lib.add('Raymond', '123');
+lib.add('David', '345');
+lib.add('Cynthia', '456');
 
 ```
