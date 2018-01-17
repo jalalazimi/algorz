@@ -1,32 +1,27 @@
 /* global describe, it, before */
 
-// import chai from 'chai';
-// import {Cat, Dog} from '../lib/library.js';
-//
-// chai.expect();
-//
-// const expect = chai.expect;
-//
-// let lib;
-//
-// describe('Given an instance of my Cat library', () => {
-//   before(() => {
-//     lib = new Cat();
-//   });
-//   describe('when I need the name', () => {
-//     it('should return the name', () => {
-//       expect(lib.name).to.be.equal('Cat');
-//     });
-//   });
-// });
-//
-// describe('Given an instance of my Dog library', () => {
-//   before(() => {
-//     lib = new Dog();
-//   });
-//   describe('when I need the name', () => {
-//     it('should return the name', () => {
-//       expect(lib.name).to.be.equal('Dog');
-//     });
-//   });
-// });
+import chai from 'chai';
+import {Dictionary} from '../lib/algorz.js';
+
+chai.expect();
+
+const expect = chai.expect;
+
+let lib;
+
+describe('Dictionary', () => {
+  before(() => {
+    lib = new Dictionary();
+    lib.add('Raymond', '123');
+    lib.add('David', '345');
+    lib.add('Cynthia', '456');
+  });
+  describe('when I need the name', () => {
+    it('should return the name', () => {
+
+      lib.showAll();
+      //expect(lib.name).to.be.equal('Cat');
+    });
+  });
+});
+

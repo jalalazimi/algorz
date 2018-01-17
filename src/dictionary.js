@@ -16,14 +16,14 @@ export default class Dictionary {
   }
 
   showAll() {
-    for (let key in Object.keys(this.datastore)) {
+    for (let key in this.datastore) {
       console.log(key + ' -> ' + this.datastore[key]);
     }
   }
 
   count() {
     let n = 0;
-    for (let key in Object.keys(this.datastore)) {
+    for (let key in this.datastore) {
       ++n;
     }
     return n;

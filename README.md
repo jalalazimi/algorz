@@ -6,30 +6,23 @@ Data Structures & Algorithms for Javascript
 
 #### Yarn (or NPM)
 
-You can use any NPM-compatible package manager, including NPM itself and Yarn.
-
+Install with npm :
 ```bash
 npm install algorz --save
 ```
-Or:
+Install with yarn:
 ```bash
 yarn add algorz
 ```
 
-Then:
+Basic usage example below.  _Note: it does not cover all the available
+methods, rather just highlights the main functionality to get up and running
+with this data structure. For a description of all the methods, see the
+API section._
 
 ```javascript
-import algorz from 'algorz';
-```
 
-Or, if you're not using ES6 modules:
+import dictionry from algorz;
 
-```javascript
-const algorz = require('algorz');
-```
-#### CDN
 
-```html
-<script src="https://unpkg.com/algorz@[X.Y.Z]/dist/algorz.min.js"></script>
 ```
-Replace [X.Y.Z] with the latest version

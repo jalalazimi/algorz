@@ -1,5 +1,12 @@
-export {default as List} from './list';
-export {default as Stack} from './stack';
-export {default as Queues} from './queues';
-export {default as LList} from './linked-list';
-export {default as Dictionary} from './dictionary';
+import {default as List} from './list';
+import Stack from './stack';
+import Queues from './queues';
+import LList from './linked-list';
+import Dictionary from './dictionary';
+
+export default {
+  Dictionary,
+  LList,
+  Queues,
+  Stack
+};
